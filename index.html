@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Data Platform - Gamesys</title>
+		<meta name="description" content="Where we are going with data warehousing, analytics, BI and Big Data">
+		<meta name="author" content="Toby O'Rourke">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-background="http://blogs.ft.com/nick-butler/files/2013/04/gas.jpg">
+					<h1>Data Platform</h1>
+					<h3>The future for Data at Gamesys</h3>
+					<p>
+						<small>Created by <a mailto="toby.orourke@gamesys.co.uk">Toby O'Rourke</a></small>
+					</p>
+				</section>
+				<section data-background="http://www.zastavki.com/pictures/1600x1200/2009/Drawn_wallpapers_Vector_Wallpapers_Telescope_015787_.jpg">
+					<section>
+						<h1>What is the Vision?</h1>
+						<p>Not here to talk about tools & technology (yet)</p>
+					</section>
+					<section>
+						<h1>Become a Data Driven Business</h1>
+						<p>Decisions made with predictive models built from our data</p>
+						<p>Quantify impact of changes</p>
+						<p>Know what success looks like</p> 
+					</section>
+					<section>
+						<h1>What if?</h1>
+						<ol class="fragment">
+							<li class="fragment">We prove that people play more on rainy days</li>
+							<li class="fragment">So start monitoring a weather feed</li>
+							<li class="fragment">We notice it is unexpectedly raining in Glasgow</li>
+							<li class="fragment">So make a "rainy day" promotion <em>within minutes</em></li>
+							<li class="fragment">(R)PLV increases 5%</li>
+						</ol>
+					</section>
+				</section>
+				
+				<section data-background="http://www.jameschesley.com/wp-content/uploads/2013/01/feature-minerals_early_prospectors.jpg">
+					<section>
+						<h1>Data Prospecting</h1>
+						<p>Multi-disciplinary team(s) formed to answer single question</p>	
+						<p>Aligned to <em>measurable business outcomes</em></p>
+						<p>Grab data where they find it</p>
+						<p>Wide variety tools & techniques</p>
+					</section>
+					<section class="fragment">
+						<h1>Why?</h1>
+						<p class="fragment">Remove delays</p>
+						<p class="fragment">Quickly test hypotheses</p>
+						<p class="fragment">Deliver more value, quicker</p>
+					</section>
+					<section class="fragment">
+						<h1>Candidate Questions</h1>
+						<p class="fragment">How is NJ TV doing?</p>	
+						<p class="fragment">Do we understand our member's consumption habits?</p>					
+						<p class="fragment">Can we build more effective promotions?</p>
+						<p class="fragment">Can we target certain segments more effectively?</p>
+						<p class="fragment">Are we getting measurable benefit from a story?</p>
+					</section>
+					<section class="fragment">
+						<h1>What are the skills?</h1>
+						<p class="fragment">Business Experts: propose the question</p>						
+						<p class="fragment">Data Plumbers: provide & refine data</p>
+						<p class="fragment">Data Scientists: manipulate data to find answers</p>
+					</section>
+					<section class="fragment">
+						<h1>Organisation</h1>
+						<p class="fragment">One size does not fit all</p>	
+						<p class="fragment">Vary mix of specialisms depending on question</p>					
+						<p class="fragment"></p>
+					</section>
+				</section>
+				
+			</div>
+		</div>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script>
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+			
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+			
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+			
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+			
+		</script>
+	</body>
+</html>
